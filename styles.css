@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 header {
@@ -132,20 +133,24 @@ span {
     padding: 60px;
     border-radius: 10px;
     height: 150px;
+    color: #E5E7EB;
 }
 
-#btm-button {
-    height: 20px;
+.btm-button {
     background-color: #3882F6;
     border-radius: 5px;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    padding: 10px 30px 10px 30px;
+    
 }
 
 footer {
     color: #F9FAF8;
     font-size: 18px;
     background-color: #1F2937;
+    min-height: calc(100vh - 700px);
+    display: flex;
+    justify-content: center;
 }
 
-.final-footer {
-    text-align: center;
-}
